@@ -7,7 +7,10 @@ Nous avons eu l’occasion de créer le lecteur multimédia Spotify pour un rush
 ## Installation
 
 1. Clonez ce dépôt sur votre machine locale.
-2. Assurez-vous d'avoir installé Node.js sur votre machine.
+2. Assurez-vous d'avoir installé Docker sur votre machine. Vous pouvez télécharger Docker à partir du site officiel de Docker :
+ ```php
+   https://www.docker.com/get-started. 
+   ```
 3. Dans le répertoire du projet, exécutez la commande suivante pour installer les dépendances nécessaires :
 
 ```php
@@ -19,7 +22,7 @@ npm install
 Après avoir installé les dépendances, exécutez la commande suivante pour lancer l'application :
 
 ```php
-npm run start
+npm start
 ```
 
 ## Présentation du projet
