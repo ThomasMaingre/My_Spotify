@@ -1,0 +1,29 @@
+.genre-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+.genre {
+    padding: 1rem;
+    background-color: rgba(30, 215, 96, 0.8);
+    border-radius: 0.5rem;
+    text-align: center;
+    width: 200px;
+}
+
+.genre-list-container {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    background-color: #181818;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
+
+.genre-title{
+    display: flex;
+    justify-content: center;
+}
